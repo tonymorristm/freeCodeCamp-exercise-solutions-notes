@@ -16,7 +16,9 @@ if (arrayFromcharCodeAt[i] === 32) {
 	decodedArray.push(arrayFromcharCodeAt[i]);
 }
 
-if (arrayFromcharCodeAt[i] === 33 || arrayFromcharCodeAt[i] === 63 || arrayFromcharCodeAt[i] === 46) {
+if (arrayFromcharCodeAt[i] === 33 ||
+    arrayFromcharCodeAt[i] === 63 ||
+    arrayFromcharCodeAt[i] === 46) {
 	decodedArray.push(arrayFromcharCodeAt[i]);
 }
 
